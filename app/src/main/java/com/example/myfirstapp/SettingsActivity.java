@@ -24,11 +24,5 @@ public class SettingsActivity extends AppCompatActivity {
         });
     }
 
-    // Для системной кнопки "Назад"
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        // Анимация при возврате
-        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
-    }
+
 }
